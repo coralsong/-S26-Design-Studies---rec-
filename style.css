@@ -51,65 +51,12 @@ a {
     text-decoration: none;
 }
 
-
-
-
-
-
-
-.submissionForm {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    background-color: white;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 20px;
+h1 {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 220px;
-    z-index: 10000; /* keeps it above the Leaflet map */
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
-
-    /* hidden by default, JS will toggle this */
-    opacity: 1;
-    pointer-events: none;
-    transition: opacity 0.2s ease-out;
+    margin: 10px;
+    left: 15px;
 }
 
-.submissionForm.active {
-    opacity: 1;
-    pointer-events: all;
-}
-
-.submissionForm h3 {
-    margin: 0;
-    font-size: 16px;
-}
-
-.submissionForm input {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 14px;
-    width: 100%;
-}
-
-.submissionForm button {
-    padding: 8px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-#submitButton {
-    background-color: black;
-    color: white;
-}
-
-#cancelButton {
-    background-color: #f0f0f0;
-    color: black;
+h3 {
+    display: flex;
 }
